@@ -1,9 +1,9 @@
 name: delete-DM
-rank: 2
+rank: 1
 priority: 1
 event: [on-message-delete]
 if:
-  - channel-matches-any: [906739960084856832, 808182861571686430] #genera;-chat , <#808182861571686430> IDs
+  - channel-matches-any: [906739960084856832] #general-chat id
 do:
   - send-message:
       id: 506990507591860254 #Abel's ID
